@@ -2,20 +2,45 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <title>Thien Nguyen Portfolio</title>
     <link rel = "stylesheet" href = "./css/style.css">
+    <title>Thien Nguyen Portfolio</title>
 </head>
 <body class="font-sans">
     <!--intro section-->
-    <div class="h-1/2 lg:h-screen">
-        <h1 class="text-4xl lg:text-6xl font-bold text-center">Hello, I'm Thien Nguyen</h1>
+    <div class="h-1/2 lg:h-screen bg-white dark:bg-dark relative overflow-hidden">
         <!--navbar-->
-        <nav> </nav>
+        <nav class = "w-full fixed top-0 z-10"> 
+            <div class = "container mx-auto py-5 flex items-center justify-between">
+                <div class = "flex items-center">
+                    <img src="./img/Logo-white.png" alt="logo">
+                </div>
+                <ul class="hidden md:flex space-x-10 text-black font-bold text-md uppercase ">
+                    <li class="hover:underline decoration-4 decoration-yellow-600">
+                        <a href = "#">Home</a>
+                    </li>
+                    <li class="hover:underline decoration-4 decoration-yellow-600">
+                        <a href = "#">About</a>
+                    </li>
+                    <li class="hover:underline decoration-4 decoration-yellow-600"> 
+                        <a href = "#">Projects</a>
+                    </li>
+                    <li class="hover:underline decoration-4 decoration-yellow-600">
+                        <a href = "#">Blog</a>
+                    </li>
+                    <li class="hover:underline decoration-4 decoration-yellow-600">
+                        <a href = "#">Contact</a>
+                    </li class="hover:underline decoration-4 decoration-yellow-600">
+                </ul>
+                <span class="md:hidden text-white cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                    
+            </div>
+        </nav>
     </div>
 </body>
 </html>
