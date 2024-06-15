@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        sm: "480px",
+      },
+    },
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      stock: ["Stockholm", "sans-serif"],
+    },
   },
   plugins: [],
 }
