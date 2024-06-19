@@ -10,40 +10,43 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
-    <body class="bg-gray-100">
+
+    
+    <body class="bg-gray-100 dark:bg-black">
         
         <section id="home" >
             <div class="md:container max-w-screen-xl mx-auto px-4">
                 <nav class="flex items-center justify-between mb-5">
-                    <img class="w-56" src="./img/Logo-Black.svg" alt="Logo">
+                    <img href = "#home" class="w-56 block dark:hidden hover:cursor-pointer" src="./img/Logo-Black.svg" alt="Logo-Black">
+                    <img href = "#home" class="w-56 hidden dark:block hover:cursor-pointer" src="./img/Logo-White.svg" alt="Logo-Black">
                     
-                    <ul class="hidden md:flex space-x-10 text-black font-bold text-md uppercase">
-                        <li class="hover:underline decoration-4 decoration-black">
+                    <ul class="hidden md:flex space-x-10 text-black font-bold text-md uppercase dark:text-white">
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
                             <a href = "#home">Home</a>
                         </li>
-                        <li class="hover:underline decoration-4 decoration-black">
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
                             <a href = "#about">About</a>
                         </li>
-                        <li class="hover:underline decoration-4 decoration-black"> 
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500"> 
                             <a href = "#project">Projects</a>
                         </li>
-                        <li class="hover:underline decoration-4 decoration-black">
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
                             <a href = "#education">Education</a>
                         </li>
-                        <li class="hover:underline decoration-4 decoration-black">
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
                             <a href = "#">Blog</a>
                         </li>
-                        <li class="hover:underline decoration-4 decoration-black">
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
                             <a href = "#">Contact</a>
-                        </li class="hover:underline decoration-4 decoration-black">
+                        </li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
                     </ul>
 
                     <a href ="files\Thien-Nguyen_Resume.pdf" target="_blank" class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-bold text-black text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get my CV</a>
                 </nav>
 
-                <div class="text-center mb-24">
+                <div class="text-center mb-16">
                     <div class="flex justify-center mb-16">
-                        <img class="rounded-full shadow-lg w-96 h-96" src="img\Potrait 1.JPEG" alt="Image">
+                        <img class="rounded-full shadow-lg w-96 h-96 max-w-none transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0" src="img\Potrait 1.JPEG" alt="Image">
                     </div>
     
                     <h6 class="font-medium text-gray-600 text-lg md:text-5xl uppercase mb-8">Thien Nguyen</h6>
@@ -52,43 +55,47 @@
     
                     <p class="font-normal text-gray-600 text-md md:text-xl"> My name is Thien. I am a software engineer, a food lover, an enthusiast for 3D printing and custom keyboards, and a cat person. </p>
                 </div>
+
+                
+
             </div>
 
             <div class="flex overflow-hidden space-x-16 group">
-                <div class="flex space-x-16 animate-loop-scroll group-hover:paused">
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 1" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 2" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/140d376c-13f2-4823-b397-b3de733bf560?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 3" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ae217f1-b695-4661-bd3d-6440eebc2c5c?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 4" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/67017079-51e1-4245-9bf1-b5957eb66c74?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 5" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/515313ac-7ec9-4c6e-95db-80dac2f8b960?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 6" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c513fc32-3ab9-4cca-911e-0b2642ac7206?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 7" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5731a5a7-689f-49ae-abf1-6e6dc00c2043?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 8" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb51d286-530f-42be-9e91-9c850522f127?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 9" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ba8437-f6fd-4a51-bfd3-262d7528f7a4?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 10" />
+                <div class="flex space-x-5 animate-loop-scroll group-hover:paused">
+                    <img loading="lazy" src="img\Scrolling Images\Image 1.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 1" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 2.jpg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 2" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 3.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 3" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 4.jpg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 4" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 5.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 5" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 6.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 6" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 7.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 7" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 8.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 8" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 9.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 9" />
+                    <img loading="lazy" src="img\Scrolling Images\Image 10.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 10" />
+                   
                 </div>
-                <div class="flex space-x-16 animate-loop-scroll group-hover:paused" aria-hidden="true">
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 1" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 2" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/140d376c-13f2-4823-b397-b3de733bf560?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 3" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ae217f1-b695-4661-bd3d-6440eebc2c5c?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 4" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/67017079-51e1-4245-9bf1-b5957eb66c74?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 5" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/515313ac-7ec9-4c6e-95db-80dac2f8b960?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 6" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c513fc32-3ab9-4cca-911e-0b2642ac7206?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 7" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5731a5a7-689f-49ae-abf1-6e6dc00c2043?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 8" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb51d286-530f-42be-9e91-9c850522f127?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 9" />
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ba8437-f6fd-4a51-bfd3-262d7528f7a4?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 10" />
+                <div class="flex space-x-5 animate-loop-scroll group-hover:paused" aria-hidden="true">
+                    <img loading="lazy" src="img\Scrolling Images\Snapseed.JPEG" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 1" />
+                    <img loading="lazy" src="img\Scrolling Images\IMG_7130.JPEG" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 2" />
+                    <img loading="lazy" src="img\Scrolling Images\5B464132-B97A-4C67-8963-76FA7C8F64E6.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 3" />
+                    <img loading="lazy" src="img\Scrolling Images\IMG_6932.JPEG" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 4" />
+                    <img loading="lazy" src="img\Scrolling Images\IMG_6073.JPEG" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 5" />
+                    <img loading="lazy" src="img\Scrolling Images\IMG_3860.JPEG" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 6" />
+                    <img loading="lazy" src="img\Scrolling Images\IMG_1084.JPEG" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 7" />
+                    <img loading="lazy" src="img\Scrolling Images\IMG_1075 .jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 8" />
+                    <img loading="lazy" src="img\Scrolling Images\42AF81DE-4155-48D8-8FE8-29511FC89227.jpg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 9" />
+                    <img loading="lazy" src="img\Scrolling Images\3924A10F-162E-41EF-9261-C84EC6EEAF57.jpeg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 10" />
+                    <img loading="lazy" src="img\Scrolling Images\26567CA1-7044-48CA-8C28-08E550AF229D.jpg" class="max-w-none h-auto transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" alt="Image 11" />
                 </div>
               </div>
-
         </section>
-"
+
         <section id="about" class="my-56 md:flex">
             <div class="container max-w-screen-xl mx-auto px-4">
                 <div class=" text-black max-h-screen flex items-center justify-center">
                     <div class="max-w-4xl flex items-center space-x-12">
                       <div>
-                        <img src="img\potrait 2.JPEG" alt="" class="rounded-full shadow-lg">
+                        <img src="img\potrait 2.JPEG" alt="" class="rounded-full shadow-lg w-96 h-96 max-w-none transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
                       </div>
                       <div class="space-y-4">
                         <h2 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">About Me</h2>
@@ -177,35 +184,24 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div class="bg-gray-50 px-8 py-10 rounded-md">
                         <h3 class="font-bold text-Black text-2xl mb-4">2024 – 2026</h3>
-                        <h4 class="font-medium text-gray-700 text-2xl mb-4">The University of Texas at Dallas</h4>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Master Degree of Computer Science</h4>
 
-                        <p class="font-normal text-gray-500 text-md mb-4">Master Degree of Computer Science</p>
-
-                        <div class="relative">
-                            <a href="https://www.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
+                        <a href="https://www.utdallas.edu/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">The University of Texas at Dallas</a>
                     </div>
 
                     <div class="bg-gray-50 px-8 py-10 rounded-md">
                         <h3 class="font-bold text-Black text-2xl mb-4">2022 – 2024</h3>
-                        <h4 class="font-medium text-gray-700 text-2xl mb-4">The University of Texas at Dallas</h4>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Bachelor's Degree of Computer Science </h4>
 
-                        <p class="font-normal text-gray-500 text-md mb-4"> Bachelor's Degree of Computer Science</p>
+                        <a href="https://www.utdallas.edu/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">The University of Texas at Dallas</a>
 
-                        <div class="relative">
-                            <a href="https://www.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
                     </div>
 
                     <div class="bg-gray-50 px-8 py-10 rounded-md">
                         <h3 class="font-bold text-Black text-2xl mb-4">2018-2021</h3>
-                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Houston Community College</h4>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Associate Degree of Computer Science</h4>
 
-                        <p class="font-normal text-gray-500 text-md mb-4"> Associate Degree of Computer Science</p>
-
-                        <div class="relative">
-                            <a href="https://www.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
+                        <a href="https://www.hccs.edu/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">Houston Community College</a>
                     </div>
 
                     
@@ -227,47 +223,29 @@
                         <h3 class="font-bold text-Black text-2xl mb-4">2024 – Present</h3>
                         <h4 class="font-medium text-gray-700 text-2xl mb-4">Web Specialist (Part-time)</h4>
 
-                        <p class="font-normal text-gray-500 text-xl mb-4">The Erik Jonsson School of Engineering and Computer Science at UT Dallas</p>
-
-                        <div class="relative">
-                            <a href="https://engineering.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
+                        <a href="https://engineering.utdallas.edu/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">The Erik Jonsson School of Engineering and Computer Science at UT Dallas</a>
                     </div>
 
                     <div class="bg-gray-50 px-8 py-10 rounded-md">
                         <h3 class="font-bold text-Black text-2xl mb-4">2023 – 2024</h3>
                         <h4 class="font-medium text-gray-700 text-2xl mb-4">President</h4>
 
-                        <p class="font-normal text-gray-500 text-xl mb-4">VINCEF at UT Dallas</p>
-
-                        <div class="relative">
-                            <a href="https://vincef.org/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
+                        <a href="https://vincef.org/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">VINCEF at UT Dallas</a>
                     </div>
+
                     <div class="bg-gray-50 px-8 py-10 rounded-md">
                         <h3 class="font-bold text-Black text-2xl mb-4">2022 – 2023</h3>
                         <h4 class="font-medium text-gray-700 text-2xl mb-4">Social Chair</h4>
 
-                        <p class="font-normal text-gray-500 text-xl mb-4">VINCEF at UT Dallas</p>
-
-                        <div class="relative">
-                            <a href="https://vincef.org/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
+                        <a href="https://vincef.org/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">VINCEF at UT Dallas</a>
                     </div>
 
                     <div class="bg-gray-50 px-8 py-10 rounded-md">
                         <h3 class="font-bold text-Black text-2xl mb-4">2018-2021</h3>
                         <h4 class="font-medium text-gray-700 text-2xl mb-4">Producer Assistant</h4>
 
-                        <p class="font-normal text-gray-500 text-xl mb-4"> Priority Insurance Agency</p>
-
-                        <div class="relative">
-                            <a href="https://www.bestpriority.com/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
-                        </div>
+                        <a href="https://www.bestpriority.com/" target="_blank"  class="font-normal text-gray-500 text-xl mb-4 relative z-10 hover:underline decoration-2 decoration-gray-500">Priority Insurance Agency</a>
                     </div>
-
-                    
-
             </div>
 
         </section>
