@@ -1,49 +1,276 @@
 <!DOCTYPE html>
 <html lang = "en">
-<head>
-    <meta charset = "UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = "./css/style.css">
-    <title>Thien Nguyen Portfolio</title>
-</head>
-<body class="font-sans">
-    <!--intro section-->
-    <div class="h-1/2 lg:h-screen bg-black relative overflow-hidden">
-        <!--navbar-->
-        <nav class = "w-full fixed top-0 bg-black z-10 dark:bg-slate-900"> 
-            <div class = "container mx-auto py-5 flex items-center justify-between">
-                <div class = "flex items-center">
-                    <img class="size-2" src="./img/logo-white.png" alt=""/>
-                </div>
-                <ul class="hidden md:flex space-x-10 text-white font-bold text-sm uppercase ">
-                    <li class="hover:underline decoration-4 decoration-yellow-600">
-                        <a href = "#">Home</a>
-                    </li>
-                    <li class="hover:underline decoration-4 decoration-yellow-600">
-                        <a href = "#">About</a>
-                    </li>
-                    <li class="hover:underline decoration-4 decoration-yellow-600"> 
-                        <a href = "#">Projects</a>
-                    </li>
-                    <li class="hover:underline decoration-4 decoration-yellow-600">
-                        <a href = "#">Blog</a>
-                    </li>
-                    <li class="hover:underline decoration-4 decoration-yellow-600">
-                        <a href = "#">Contact</a>
-                    </li class="hover:underline decoration-4 decoration-yellow-600">
-                </ul>
-                <ul>
-                    <img src="./img/moon.png" alt="moon" class="w-5 cursor-pointer" class="hidden md:block w-5 cursor-pointer" alt="">
-                </ul>
-                <span class="md:hidden text-white cursor-pointer">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thien Nguyen Portfolio</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body class="bg-gray-100">
+        
+        <section id="home" >
+            <div class="md:container max-w-screen-xl mx-auto px-4">
+                <nav class="flex items-center justify-between mb-5">
+                    <img class="w-56" src="./img/Logo-Black.svg" alt="Logo">
                     
+                    <ul class="hidden md:flex space-x-10 text-black font-bold text-md uppercase">
+                        <li class="hover:underline decoration-4 decoration-black">
+                            <a href = "#home">Home</a>
+                        </li>
+                        <li class="hover:underline decoration-4 decoration-black">
+                            <a href = "#about">About</a>
+                        </li>
+                        <li class="hover:underline decoration-4 decoration-black"> 
+                            <a href = "#project">Projects</a>
+                        </li>
+                        <li class="hover:underline decoration-4 decoration-black">
+                            <a href = "#education">Education</a>
+                        </li>
+                        <li class="hover:underline decoration-4 decoration-black">
+                            <a href = "#">Blog</a>
+                        </li>
+                        <li class="hover:underline decoration-4 decoration-black">
+                            <a href = "#">Contact</a>
+                        </li class="hover:underline decoration-4 decoration-black">
+                    </ul>
+
+                    <a href ="files\Thien-Nguyen_Resume.pdf" target="_blank" class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-bold text-black text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get my CV</a>
+                </nav>
+
+                <div class="text-center mb-24">
+                    <div class="flex justify-center mb-16">
+                        <img class="rounded-full shadow-lg w-96 h-96" src="img\Potrait 1.JPEG" alt="Image">
+                    </div>
+    
+                    <h6 class="font-medium text-gray-600 text-lg md:text-5xl uppercase mb-8">Thien Nguyen</h6>
+    
+                    <h1 class="font-normal text-gray-900 text-4xl md:text-6xl leading-none mb-8">Software Engineer</h1>
+    
+                    <p class="font-normal text-gray-600 text-md md:text-xl"> My name is Thien. I am a software engineer, a food lover, an enthusiast for 3D printing and custom keyboards, and a cat person. </p>
+                </div>
             </div>
-        </nav>
-    </div>
-</body>
+
+            <div class="flex overflow-hidden space-x-16 group">
+                <div class="flex space-x-16 animate-loop-scroll group-hover:paused">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 1" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 2" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/140d376c-13f2-4823-b397-b3de733bf560?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 3" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ae217f1-b695-4661-bd3d-6440eebc2c5c?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 4" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/67017079-51e1-4245-9bf1-b5957eb66c74?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 5" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/515313ac-7ec9-4c6e-95db-80dac2f8b960?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 6" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c513fc32-3ab9-4cca-911e-0b2642ac7206?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 7" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5731a5a7-689f-49ae-abf1-6e6dc00c2043?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 8" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb51d286-530f-42be-9e91-9c850522f127?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 9" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ba8437-f6fd-4a51-bfd3-262d7528f7a4?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 10" />
+                </div>
+                <div class="flex space-x-16 animate-loop-scroll group-hover:paused" aria-hidden="true">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 1" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 2" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/140d376c-13f2-4823-b397-b3de733bf560?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 3" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ae217f1-b695-4661-bd3d-6440eebc2c5c?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 4" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/67017079-51e1-4245-9bf1-b5957eb66c74?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 5" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/515313ac-7ec9-4c6e-95db-80dac2f8b960?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 6" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c513fc32-3ab9-4cca-911e-0b2642ac7206?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 7" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5731a5a7-689f-49ae-abf1-6e6dc00c2043?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 8" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cb51d286-530f-42be-9e91-9c850522f127?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 9" />
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44ba8437-f6fd-4a51-bfd3-262d7528f7a4?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" class="max-w-none" alt="Image 10" />
+                </div>
+              </div>
+
+        </section>
+"
+        <section id="about" class="my-56">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class=" text-black max-h-screen flex items-center justify-center">
+                    <div class="max-w-4xl flex items-center space-x-12">
+                      <div>
+                        <img src="img\potrait 2.JPEG" alt="" class="rounded-full shadow-lg">
+                      </div>
+                      <div class="space-y-4">
+                        <h2 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">About Me</h2>
+                        <p class="font-normal text-gray-600 text-md md:text-xl mb-16">I am a software engineer with a passion for creating innovative solutions that positively impact people's lives. I have a diverse skill set that spans programming, machine learning, computer vision, LLMs and data analysis, and I am always looking for new ways to leverage technology to solve complex problems.</p>
+                        
+                        <div class="flex items-center space-x-4">
+                            <a href="https://github.com/unclethien" target="_blank" class="flex items-center space-x-2 hover:underline decoration-4 decoration-black"> 
+                                <img class="h-5" src="img/github-mark.svg" alt="Github">
+                                <p>Follow me on GitHub</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/utdthiennguyen/" target="_blank" class="flex items-center space-x-2 hover:underline decoration-4 decoration-black">
+                                <img class="h-5" src="img/linkedin-icon.svg" atl="Linkedin">
+                                <p>Follow me on Linkedin</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="mailto:dxn210021@utdallas.edu" target="_blank" class="flex items-center space-x-2 hover:underline decoration-4 decoration-black">
+                                <img class="h-5" src="img\email-icon.svg" atl="Email">
+                                <p>Email me!</p>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        
+        </section>
+        <section id="project" class="py-10 md:py-16 bg-gray-100">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="grid grid-cols-3 gap-4"> <!-- Updated this line for equal columns -->
+                    <div class="col-span-1 mb-10 lg:mb-0">
+                        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Project</h1>
+                        <p class="font-normal text-gray-500 text-xs md:text-base">
+                            I have brought here my biggest and favorite works as a professional.
+                        </p>
+                    </div>
+                    <div class="col-span-2 space-y-12"> <!-- Adjusted spacing here -->
+                        <!-- Project 01 -->
+                        <div class="flex space-x-6">
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">01</h1>
+                            <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                            <div>
+                                <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Healthcare Correspondence LLM</h1>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Developed a proof-of-concept Healthcare Correspondence Chatbot utilizing OCR, Chroma database, LLama 2 LLM, and a user-friendly web interface to simplify document searches for healthcare professionals. </p>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Collaborated in a team to process and store over 10,000 healthcare correspondence documents, integrating OCR, data vectorization, and semantic similarity search for efficient data retrieval.  </p>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Optimized LLM performance by implementing GPU-based inference on AWS, reducing response time from 2.5 minutes to 15 seconds, and conducted thorough testing to ensure high accuracy in answering user queries.  </p>
+                            </div>
+                        </div>
+                        <!-- Project 02 -->
+                        <div class="flex space-x-6">
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">02</h1>
+                            <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                            <div>
+                                <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">Brain Tumor Detection – Undergrad Research</h1>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Conducted a comprehensive comparative analysis of advanced machine learning techniques, including InceptionV3, ResNet, VGG, YOLOv9, GELAN, and Xception, for accurate brain tumor classification using MRI scans. </p>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Developed an ensemble model combining InceptionV3, ResNet, and VGG classifiers, achieving a superior accuracy of 0.956 compared to individual classifiers, demonstrating the power of ensemble learning in medical image analysis.  </p>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Utilized state-of-the-art deep learning architectures, such as YOLOv9 and GELAN-C, and optimized training techniques to enhance brain tumor detection accuracy, contributing to the advancement of medical imaging and diagnosis.  </p>
+                            </div>
+                        </div>
+                        <!-- Project 03 -->
+                        <div class="flex space-x-6">
+                            <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">03</h1>
+                            <span class="w-28 h-0.5 bg-gray-300 mt-5"></span>
+                            <div>
+                                <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5">MoodTunes – HackUTD X Golden Hour</h1>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Developed and implemented facial emotion recognition models using convolutional neural networks to detect user emotions from video in real time with over 90% accuracy.  </p>
+                                <p class="font-normal text-gray-500 text-sm md:text-base">• Built a backend system to analyze video from the user webcam, extract facial frames, run recognition models, and return emotion analysis results to the frontend under 100ms per frame.   </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="education" class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Education</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2024 – 2026</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">The University of Texas at Dallas</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Master Degree of Computer Science</p>
+
+                        <div class="relative">
+                            <a href="https://www.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2022 – 2024</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">The University of Texas at Dallas</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4"> Bachelor's Degree of Computer Science</p>
+
+                        <div class="relative">
+                            <a href="https://www.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2018-2021</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Houston Community College</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4"> Associate Degree of Computer Science</p>
+
+                        <div class="relative">
+                            <a href="https://www.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+
+                    
+
+            </div>
+
+        </section>
+
+        <section class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Work Experience</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2024 – Present</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Web Specialist (Part-time)</h4>
+
+                        <p class="font-normal text-gray-500 text-xl mb-4">The Erik Jonsson School of Engineering and Computer Science at UT Dallas</p>
+
+                        <div class="relative">
+                            <a href="https://engineering.utdallas.edu/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2023 – 2024</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">President</h4>
+
+                        <p class="font-normal text-gray-500 text-xl mb-4">VINCEF at UT Dallas</p>
+
+                        <div class="relative">
+                            <a href="https://vincef.org/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2022 – 2023</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Social Chair</h4>
+
+                        <p class="font-normal text-gray-500 text-xl mb-4">VINCEF at UT Dallas</p>
+
+                        <div class="relative">
+                            <a href="https://vincef.org/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h3 class="font-bold text-Black text-2xl mb-4">2018-2021</h3>
+                        <h4 class="font-medium text-gray-700 text-2xl mb-4">Producer Assistant</h4>
+
+                        <p class="font-normal text-gray-500 text-xl mb-4"> Priority Insurance Agency</p>
+
+                        <div class="relative">
+                            <a href="https://www.bestpriority.com/" target="_blank" class="font-semibold text-gray-500 text-md relative z-10 hover:underline decoration-4 decoration-black">See the place here</a>
+                        </div>
+                    </div>
+
+                    
+
+            </div>
+
+        </section>
+    </body>
 </html>
