@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thien Nguyen Portfolio</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    
+    <body class="bg-gray-100 dark:bg-black">
+        
+        <section id="home" >
+            <div class="md:container max-w-screen-xl mx-auto px-4">
+                <nav class="flex items-center justify-between mb-5">
+                    <img href = "#home" class="w-56 block dark:hidden hover:cursor-pointer" src="./img/Logo-Black.svg" alt="Logo-Black">
+                    <img href = "#home" class="w-56 hidden dark:block hover:cursor-pointer" src="./img/Logo-White.svg" alt="Logo-Black">
+                    
+                    <ul class="hidden md:flex space-x-10 text-black font-bold text-md uppercase dark:text-white">
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
+                            <a href = "#home">Home</a>
+                        </li>
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
+                            <a href = "#about">About</a>
+                        </li>
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500"> 
+                            <a href = "#project">Projects</a>
+                        </li>
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
+                            <a href = "#education">Education</a>
+                        </li>
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
+                            <a href = "#">Blog</a>
+                        </li>
+                        <li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
+                            <a href = "#">Contact</a>
+                        </li class="hover:underline decoration-2 decoration-black dark:decoration-yellow-500">
+                    </ul>
+
+                    <a href ="files\Thien-Nguyen_Resume.pdf" target="_blank" class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-bold text-black text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get my CV</a>
+                </nav>
+            </div>
+        </section>
+
+    </section>
+    <section id="project" class="py-10 md:py-16 bg-gray-100">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="grid grid-cols-3 gap-4"> <!-- Updated this line for equal columns -->
+                <div class="col-span-1 mb-10 lg:mb-0">
+                    <h1 class="font-2xl font-bold text-gray-700 text-3xl md:text-4xl mb-5">Project</h1>
+                    <p class="font-normal text-gray-700 text-lg md:text-base">
+                        I have brought here my biggest and favorite works as a professional.
+                    </p>
+                </div>
+                <div class="col-span-2 space-y-12"> <!-- Adjusted spacing here -->
+                    <!-- Project 01 -->
+                    <ol class="ml-16 relative border-s border-gray-200 dark:border-gray-700">                  
+                        <li class="mb-16 ms-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Jan 2024 – May 2024</time>
+                            <h3 class="my-4 text-3xl font-semibold text-gray-900 dark:text-white">Healthcare Correspondence LLM</h3>
+                            <p class="text-base font-normal text-gray-700 dark:text-gray-400 italic">Python, Chroma DB, Llama 2, Flask API, Tesseract OCR, HTML, CSS, JavaScript</p>
+                            <ul class="mb-4 text-base font-normal text-gray-600 dark:text-gray-400 list-disc"> 
+                                <li class="my-4 ml-10">Developed a proof-of-concept Healthcare Correspondence Chatbot utilizing OCR, Chroma database, LLama 2 LLM, and a user-friendly web interface to simplify document searches for healthcare professionals.</li>
+                                <li class="my-4 ml-10">Collaborated in a team to process and store over 10,000 healthcare correspondence documents, integrating OCR, data vectorization, and semantic similarity search for efficient data retrieval.</li>
+                                <li class="my-4 ml-10">Optimized LLM performance by implementing GPU-based inference on AWS, reducing response time from 2.5 minutes to 15 seconds, and conducted thorough testing to ensure high accuracy in answering user queries.</li>
+
+                            </ul>
+                        </li>
+                        <li class="mb-16 ms-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">Jan 2024 – May 2024</time>
+                            <h3 class="my-4 text-3xl font-semibold text-gray-900 dark:text-white">Brain Tumor Detection – Undergrad Research</h3>
+                            <p class="text-base font-normal text-gray-700 dark:text-gray-400 italic">Python,YOLOv9 InceptionV3, ResNet, VGG, Xception</p>
+                            <ul class="mb-4 text-base font-normal text-gray-600 dark:text-gray-400 list-disc"> 
+                                <li class="my-4 ml-10">Conducted a comprehensive comparative analysis of advanced machine learning techniques, including InceptionV3, ResNet, VGG, YOLOv9, GELAN, and Xception, for accurate brain tumor classification using MRI scans.</li>
+                                <li class="my-4 ml-10">Developed an ensemble model combining InceptionV3, ResNet, and VGG classifiers, achieving a superior accuracy of 0.956 compared to individual classifiers, demonstrating the power of ensemble learning in medical image analysis.</li>
+                                <li class="my-4 ml-10">Utilized state-of-the-art deep learning architectures, such as YOLOv9 and GELAN-C, and optimized training techniques to enhance brain tumor detection accuracy, contributing to the advancement of medical imaging and diagnosis.</li>
+
+                            </ul>
+                        </li>
+                        <li class="mb-16 ms-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <time class="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">September 2023</time>
+                            <h3 class="my-4 text-3xl font-semibold text-gray-900 dark:text-white">MoodTunes – HackUTD X Golden Hour</h3>
+                            <p class="text-base font-normal text-gray-700 dark:text-gray-400 italic">Python, CNN, Flask, OpenCV</p>
+                            <ul class="mb-4 text-base font-normal text-gray-600 dark:text-gray-400 list-disc"> 
+                                <li class="my-4 ml-10">Developed and implemented facial emotion recognition models using convolutional neural networks to detect user emotions from video in real time with over 90% accuracy</li>
+                                <li class="my-4 ml-10">Built a backend system to analyze video from the user webcam, extract facial frames, run recognition models, and return emotion analysis results to the frontend under 100ms per frame. </li>
+                            </ul>
+                        </li>
+                    </ol>
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
